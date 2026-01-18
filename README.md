@@ -67,6 +67,10 @@ The clustering process groups regions according to their productive stability pa
 
 • Visual exploration includes temporal trends, geographic patterns, and comparative risk profiles
 
+ 
+ 
+### *A detailed explanation of each stage is available in the whitepaper.*
+
 ## Key Insights
 
 • A very high correlation (0.9816) was found between harvested area and total production, indicating that production volume is primarily driven by scale rather than yield efficiency.
@@ -77,6 +81,8 @@ The clustering process groups regions according to their productive stability pa
   3. Low Stability / High Productive Risk
 
 These profiles reveal structural differences that are not visible when using average yield alone.
+
+### *Full interpretation and decision implications are discussed in the whitepaper*
 
 ## Dashboards
 
@@ -93,6 +99,11 @@ The Tableau dashboards allow users to:
 
 • Future work could integrate climatic data to enhance explanatory power.
 
+## Whitepaper
+This project includes a technical whitepaper that provides an in-depth explanation of the methodology, analytical decisions, and strategic interpretation of results.
+
+**File:** `whitepaper/Soybean_Production_Stability_Argentina_Whitepaper.pdf`
+
 ## Project Structure
 
 | Folder / File      | Description                                                                 |
@@ -102,7 +113,7 @@ The Tableau dashboards allow users to:
 | `database/`        | SQLite database with normalized relational schema                             |
 | `visualizations/`  | Tableau packaged workbook (`.twbx`), dashboard previews, and PDF outputs     |
 | `outputs/`         | Final datasets used for clustering results and Tableau integration            |
+| `whitepaper/`      | Detailed methodological and strategic analysis                                |
 | `README.md`        | Project documentation and methodological overview                             |
-
 
 *Author: Valentino Lorenzati*
